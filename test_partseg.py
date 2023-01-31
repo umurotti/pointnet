@@ -82,6 +82,7 @@ def main(args):
     classifier = MODEL.get_model(num_part, normal_channel=args.normal).cuda()
     checkpoint = torch.load(str(experiment_dir) + '/checkpoints/best_model.pth')
     classifier.load_state_dict(checkpoint['model_state_dict'])
+    log_string(f"{model_name} is loaded")
 
     with torch.no_grad():
         test_metrics = {}
@@ -99,6 +100,10 @@ def main(args):
         classifier = classifier.eval()
         for batch_id, (points, label, target) in tqdm(enumerate(testDataLoader), total=len(testDataLoader),
                                                       smoothing=0.9):
+            print(points.shape)                                                      
+            print(label.shape)                                                      
+            print(target.shape)                                                      
+            exit(0)
             batchsize, num_point, _ = points.size()
             cur_batch_size, NUM_POINT, _ = points.size()
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()

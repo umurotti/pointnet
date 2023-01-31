@@ -96,6 +96,7 @@ def main(args):
     '''MODEL LOADING'''
     num_class = args.num_category
     model_name = os.listdir(experiment_dir + '/logs')[0].split('.')[0]
+    print(model_name)
     model = importlib.import_module(model_name)
 
     classifier = model.get_model(num_class, normal_channel=args.use_normals)

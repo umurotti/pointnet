@@ -1,0 +1,50 @@
+2022-11-27 16:06:13,677 - Model - INFO - PARAMETER ...
+2022-11-27 16:06:13,678 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:06:13,706 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:18:35,896 - Model - INFO - PARAMETER ...
+2022-11-27 16:18:35,896 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:18:35,925 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:19:27,195 - Model - INFO - PARAMETER ...
+2022-11-27 16:19:27,195 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:19:27,224 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:20:09,655 - Model - INFO - PARAMETER ...
+2022-11-27 16:20:09,655 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:20:09,692 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:20:49,966 - Model - INFO - PARAMETER ...
+2022-11-27 16:20:49,966 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:20:50,023 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:23:15,903 - Model - INFO - PARAMETER ...
+2022-11-27 16:23:15,903 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:23:15,933 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:23:33,356 - Model - INFO - PARAMETER ...
+2022-11-27 16:23:33,356 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:23:33,387 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:23:35,620 - Model - INFO - pointnet2_part_seg_msg is loaded
+2022-11-27 16:25:30,814 - Model - INFO - eval mIoU of Airplane       0.830509
+2022-11-27 16:25:30,814 - Model - INFO - eval mIoU of Bag            0.836166
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Cap            0.863075
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Car            0.789779
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Chair          0.907735
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Earphone       0.731975
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Guitar         0.910474
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Knife          0.874459
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Lamp           0.848689
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Laptop         0.956092
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Motorbike      0.732015
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Mug            0.954588
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Pistol         0.818310
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Rocket         0.601859
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Skateboard     0.761054
+2022-11-27 16:25:30,815 - Model - INFO - eval mIoU of Table          0.828310
+2022-11-27 16:25:30,815 - Model - INFO - Accuracy is: 0.94422
+2022-11-27 16:25:30,815 - Model - INFO - Class avg accuracy is: 0.87497
+2022-11-27 16:25:30,815 - Model - INFO - Class avg mIOU is: 0.82782
+2022-11-27 16:25:30,815 - Model - INFO - Inctance avg mIOU is: 0.85530
+2022-11-27 16:37:32,377 - Model - INFO - PARAMETER ...
+2022-11-27 16:37:32,377 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:37:32,415 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:37:34,111 - Model - INFO - pointnet2_part_seg_msg is loaded
+2022-11-27 16:38:02,516 - Model - INFO - PARAMETER ...
+2022-11-27 16:38:02,516 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2022-11-27 16:38:02,547 - Model - INFO - The number of test data is: 2874
+2022-11-27 16:38:04,227 - Model - INFO - pointnet2_part_seg_msg is loaded
